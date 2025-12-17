@@ -119,6 +119,8 @@ Deciding how to implement the end of month function, whether it'd be best to do 
 
 # Known Bugs
 
+When depositing, the banking system incorrectly adds the amount and increases the deposited amount by 10, you can reproduce this by making an account, selecting deposit, entering the id, and then an amount, then afterwards check the balance.
+
 Random line text printed
 
 Invalid Results
